@@ -218,8 +218,8 @@ cs_paramcd_tr <- choices_selected(
 
 ## App header and footer ----
 takeda_logo <- "Takeda_Logo.jpg"
-app_source <- "https://github.com/"
-gh_issues_page <- "https://github.com/"
+app_source <- "https://github.com/liangzhou-dev/Teal_App_Dev"
+gh_issues_page <- "https://github.com/liangzhou-dev/Teal_App_Dev"
 
 header <- tags$span(
   style = "display: flex; align-items: center; justify-content: space-between; margin: 10px 0 10px 0;",
@@ -234,8 +234,8 @@ header <- tags$span(
 footer <- tags$p(
   "This teal app is brought to you by the COE Team at Takeda.
         For more information, please visit:"
-  # ,tags$a(href = app_source, target = "_blank", "Source Code"), ", "
-  # ,tags$a(href = gh_issues_page, target = "_blank", "Report Issues")
+  ,tags$a(href = app_source, target = "_blank", "Source Code"), ", "
+  ,tags$a(href = gh_issues_page, target = "_blank", "Report Issues")
 )
 
 ## Setup App
